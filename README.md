@@ -1,5 +1,8 @@
 # NotePass WordPress Plugin
 
+Created a handover plugin called NotePass for freelancers/agencies to improve WordPress project transitions. Built it after seeing how often handovers get lost. It’s free and GPL. Hope it helps someone!
+
+
 ## Description
 
 NotePass is a WordPress plugin designed to help freelancers, agencies, and project managers create, organize, and hand over detailed project notes to clients or team members in a clean, structured, and user-friendly way.
