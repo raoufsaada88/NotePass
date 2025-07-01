@@ -1,0 +1,112 @@
+/* Admin page general styles */
+body.wp-admin {
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #23282d;
+    background: #fff;
+}
+
+/* Tabs container */
+#fh-tabs {
+    margin-top: 20px;
+}
+
+/* Tabs content */
+#fh-tabs .ui-tabs-panel {
+    padding: 15px 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+/* Block row container */
+.fh-block-row {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+
+/* Inputs */
+.fh-block-row input[type="text"],
+.fh-block-row textarea.fh-block-note {
+    font-size: 13px;
+    font-family: inherit;
+    border: 1px solid #ccd0d4;
+    border-radius: 3px;
+    padding: 6px 8px;
+    color: #23282d;
+    box-sizing: border-box;
+    background: #fff;
+    transition: border-color 0.2s ease;
+}
+
+.fh-block-row input[type="text"]:focus,
+.fh-block-row textarea.fh-block-note:focus {
+    border-color: #0073aa;
+    outline: none;
+    box-shadow: 0 0 0 1px #0073aa;
+}
+
+/* Widths for inputs */
+.fh-block-row input[type="text"]:first-child {
+    width: 30%;
+    margin-right: 10px;
+}
+
+.fh-block-row input[type="text"]:nth-child(2) {
+    width: 30%;
+    margin-right: 10px;
+}
+
+.fh-block-row textarea.fh-block-note {
+    width: 35%;
+    resize: vertical;
+}
+
+/* Remove button styling */
+.fh-remove-block {
+    height: 30px;
+    margin-left: 8px;
+    align-self: center;
+}
+
+/* Add new block button */
+.fh-add-block {
+    margin-top: 10px;
+}
+
+/* Export buttons */
+#export-html,
+#export-pdf {
+    border-radius: 3px;
+    font-weight: 600;
+    text-shadow: none;
+    box-shadow: none;
+    border: none;
+}
+
+/* Branding footer styles */
+#fh-notes-footer {
+    text-align: center;
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    color: #555;
+    margin-top: 40px;
+    border-top: 1px solid #e1e1e1;
+    padding-top: 10px;
+}
+
+#fh-notes-footer a {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+#fh-notes-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Optional: add subtle hover to block rows */
+.fh-block-row:hover {
+    background-color: #f9fbfd;
+}
